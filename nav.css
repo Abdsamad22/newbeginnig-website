@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 59);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: black;
+}
+header h2{
+    color: aqua;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header ul{
+ list-style: none;
+}
+header li{
+    display: inline-block;
+    padding: 0 15px;
+}
+header a{
+    text-decoration: none;
+    font-size: larger;
+    text-transform: capitalize;
+    color: antiquewhite;
+}
+header button{
+    padding: 6px 15px;
+    border-radius: 15px;
+    color: red;
+    background-color: aqua;
+    text-transform:capitalize;
+    font-weight: bold;
+}
+
+/* main content css */
+main{
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: rgba(250, 235, 215, 0.173);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.169);
+}
+.main-food-image{
+    background-image: url(./270566870_470110631458008_5588715352295434891_n.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    border-radius: 10px;
+    border: 10px solid rgba(0, 0, 0, 0.292);
+    height: 300px;
+}
+main .main-food-text{
+    width: 50%;
+}
+main .main-food-text h1{
+    color: green;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+main .main-food-text h5{
+    color: black;
+    text-transform: capitalize;
+    padding: 10px 0;
+    font-size: 17px;
+}
+main .main-food-text button{
+    padding: 9px 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    text-transform:capitalize;
+    font-weight: bold;
+    border: none;
+}
+main .main-food-text p{
+    width: 80%;
+    padding-bottom: 35px;
+}
+
+
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color:black;
+    color: antiquewhite;
+    margin: 30px;
+}
+.halal-food-image{
+    background-image: url(./270566870_470110631458008_5588715352295434891_n.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    border-radius: 10px;
+    border: 10px solid rgba(240, 128, 128, 0.307);
+    height: 300px;
+    margin: 25px;
+}
+main .halal-food{
+    width: 50%;
+}
+main .halal-food h6{
+    color: blue;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+main .halal-food h4{
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:12px;
+}main .halal-food p{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+main .halal-food button{
+    padding: 9px 35px;
+    border-radius: 15px;
+    color: white;
+    background-color: red;
+    text-transform:capitalize;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+}
+
+
+
+div.offering{
+    background-color: aqua;
+    text-align: center;
+}
+div.offering h5{
+    color: blue;
+    text-transform: capitalize;
+    padding: 13px;
+}
+div.offering h1{
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.food{
+    background-color: khaki;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    padding: 15px 8px;
+}
+
+.exellent-food{
+    width: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.fast-food{
+    width: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.delivery{
+    width: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.exellent-food h3,.fast-food h3,.delivery h3{
+    text-transform:capitalize ;
+    margin: 10px 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color:black;
+    color: darkcyan;
+    margin: 30px;
+}
+main .project-1{
+    width: 90%;
+}
+.project-1 h4{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.project-1 p{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.project-1 button{
+    padding: 9px 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    text-transform:capitalize;
+    font-weight: bold;
+    border: none;
+}
+
+
+.haram-food-image{
+    background-image: url(./277370070_1347298669017189_1322623328564009636_n.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    border-radius: 8px;
+    height: 250px;
+    margin: 25px;
+}
+form button{
+    padding: 9px 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    text-transform:capitalize;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+}
+
+form input{
+    padding: 8px;
+    width: 100%;
+    text-decoration: none;
+}
+.form{
+    width: 80%;
+    margin: 0 auto;
+}
+.picture-1{
+    background-image: url(./254758717_849595442394492_6027539087628584754_n.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 30%;
+    border-radius: 13px;
+}
+.picture-2{
+    background-image: url(./277370070_1347298669017189_1322623328564009636_n.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 30%;
+    border-radius: 13px;
+}
+.picture-3{
+    background-image: url(./270566870_470110631458008_5588715352295434891_n.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 30%;
+    border-radius: 13px;
+}
+.pictures{
+display: flex;
+justify-content: space-between;
+padding: 0 100px;
+}
+.image{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    column-gap: 50px;
+    text-align: center;
+    
+}
+.image img{
+    width: 100px;
+    border-radius: 20px;
+}
+.image h2{
+    text-transform: capitalize;
+    color: aqua;
+}
